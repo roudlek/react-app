@@ -1,12 +1,13 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import Home from '../pages/index'
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
       <body>
-        <Main />
-        <NextScript />
+      {/* <Home /> */}
+      <Main />
+      <NextScript />
       </body>
     </Html>
   )
