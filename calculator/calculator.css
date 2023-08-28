@@ -1,0 +1,58 @@
+/* calculator.css */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #eeb9b9;
+}
+
+caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+td {
+    width: 100px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+#number0 {
+    width: 110px;
+}
+
+#addition, #Enter {
+    height: 100px;
+    background-color: #ffa500;
+    color: white;
+}
+
+#delete {
+    height: 200px;
+    background-color: #ff3333;
+    color: white;
+    font-weight: bold;
+}
+
+#delete:hover {
+    background-color: #cc0000;
+}
+
+#division, #number0{
+    width: 200px;
+}

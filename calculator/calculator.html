@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Example</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" type="text/javascript" async="false"></script>
+
+</head>
+<body>
+    <table>
+        <caption>Calculator</caption>
+        <tr>
+            <td colspan="2"><button id="division" onclick="operation('/')">/</button></td>
+            <td><button id="multiplication" onclick="operation('*')">*</button></td>
+            <td><button id="substraction" onclick="operation('-')" >-</button></td>
+            <td><button id="new" onclick="redoAll()">C</button></td>
+        </tr>
+        <tr>
+            <td><button id="number7" onclick="putSelectedNumber(7)">7</button></td>
+            <td><button id="number8" onclick="putSelectedNumber(8)">8</button></td>
+            <td><button id="number9" onclick="putSelectedNumber(9)">9</button></td>
+            <td rowspan="2"><button id="addition" onclick="operation('+')">+</button></td>
+            <td rowspan="4"><button id="delete" onclick="removeLastNumber()">delete</td>
+        </tr>
+        <tr>
+            <td><button id="number4" onclick="putSelectedNumber(4)">4</button></td>
+            <td><button id="number5" onclick="putSelectedNumber(5)">5</button></td>
+            <td><button id="number6" onclick="putSelectedNumber(6)">6</button></td>
+        </tr>
+        <tr>
+            <td><button id="number1" onclick="putSelectedNumber(1)">1</button></td>
+            <td><button id="number2" onclick="putSelectedNumber(2)">2</button></td>
+            <td><button id="number3" onclick="putSelectedNumber(3)">3</button></td>
+            <td rowspan="2"><button id="Enter">Enter</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="number0" onclick="putSelectedNumber(0)">0</button></td>
+            <td>
+                <button id="thedot">.</button>
+            </td>
+        </tr>
+    </table>
+    <div id="side1"></div>
+    <div id="side2"></div>
+    <div id="resultBox"></div>
+</body>
+</html>
